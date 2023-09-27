@@ -1,0 +1,233 @@
+
+#nome{
+    background-color: #160727;
+    font-size: 70px;
+    color: #00eb84;
+    display: flex;
+    justify-content: center;
+    font-family: 'Dela Gothic One', cursive;
+    margin: 0;
+}
+
+a{
+    color: #00eb84;
+    text-decoration: none;
+    text-shadow: 0.1em 0.1em 0.3em rgba(0, 0, 0, 0.411);
+}
+
+
+
+body{
+    background-color: #ffffff ;
+    margin: 0px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    text-decoration: none;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding: 146px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+#menu{
+    background-color: #160727;
+    background-image: linear-gradient(to bottom white, #103cee78);
+}
+
+#clientes{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+main{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#apresentacao1{
+    display: flex;
+    justify-content: center;
+    max-width: fit-content;
+    text-align: center;
+    width: 1170px;
+    margin-left: 180px;
+}
+
+#apresentacao2{
+    display: flex;
+    justify-content: center;
+    max-width: fit-content;
+    text-align: center;
+    width: 1150px;
+    margin-left: 180px;
+}
+
+#resumo{
+    color: aliceblue;
+   
+    box-shadow: 0 0 0 40px #160727;
+    background-color: #2a004f;
+    background-image: linear-gradient(to bottom, #160727 1%, #2a004f 60%);
+}
+
+#secao{
+    color: #2a004f;
+    box-shadow: 0 10px 0 10px #ffffff;
+}
+
+#servico1{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 190px;
+    width: 1250px;
+    height: 300px;
+}
+
+#texto1{
+    padding-right: 110px;
+    color: aliceblue;
+    letter-spacing: 1px;
+}
+
+.img1{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    border-radius: 50%;
+}
+
+#servico2{
+    background-color: #2a004f00;
+    color: #2a004f;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 150px;
+    width: 1250px;
+}
+
+#texto2{
+    padding-right: 110px;
+    color: #2a004f;
+    letter-spacing: 1px;
+}
+
+.img2 {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+#cliente2{
+    width: 810px;
+}
+
+#secao3{
+    height: 350px;
+    background-color: #2a004f;
+    background-image: linear-gradient(to bottom, #2a004f 1px, #000000d2 );
+}
+
+#servico3{
+    color: #2a004f;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 190px;
+    width: 1250px;
+    height: 350px;
+}
+
+#texto3{
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+.img3{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 70px;
+}
+
+#rodape{
+    justify-content: left;
+    display: flex;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    background-color: #160727;
+    box-shadow: 10px 10px 0 10px #2a004f;
+    padding: 20px;
+}
+
+#copy{
+    margin-left: 10px;
+    margin-right: 700px;
+}
+
+#instalogo{
+    width: 50px;
+    display: flex;
+    justify-items: right;
+}
+
+
+#logo{
+    margin-left: 190px;
+    width: 50px;
+}
+
+#ajuda{
+    font-family: 'Dela Gothic One', cursive;
+    margin-left: 15px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: fixed;
+    left: 15px;
+    bottom: 15px;
+    font-size: 1.1em;
+    background-color: #00eb84;
+    border-radius: 30px;
+    width: 85px;
+    height: 50px;
+    border: 1px solid #00eb84;
+    color: #2a004f;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+#160727 #00eb84 #2a004f 
