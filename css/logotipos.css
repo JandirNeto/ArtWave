@@ -38,6 +38,37 @@ li{
     text-decoration: none;
 }
 
+#servico{
+    color: aliceblue;
+    background-color: #160727;
+    box-shadow: 0 0 0 40px #160727;
+    margin-bottom: 0px;
+}
+
+#detalhes{
+    margin-right: 45px;
+    text-align: center;
+    margin-left: 45px;
+    align-items: last baseline;
+    justify-content: center;
+    display: grid;
+    font-size: 120%;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+
+#secao{
+    box-shadow: 0 10px 0 10px #2a004f;
+}
+
+#ajuda{
+    font-family: Dela Gothic One , cursive;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+}
+
 #menu{
     background-color: #160727;
     background-image: linear-gradient(to bottom white, #103cee78);
@@ -48,58 +79,15 @@ li{
     margin-right: 50px;
 }
 
-#resumo{
-    font-family: 'Dela Gothic One', cursive;
-    justify-content: center;
-    margin-bottom: 40px;
 
-}
 
 main{
     font-family: 'Montserrat', sans-serif;
 }
 
-#contato{
-    letter-spacing: 1px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    font-family: 'Montserrat', sans-serif;
-    color: #00eb84;
-    margin-left: 350px;
-    margin-bottom: 30px
-}
 
-#telefone{
-    margin-top: 5px
-}
 
-#ajuda{
-    font-family: Dela Gothic One , cursive;
-    margin-bottom: 146px;
-    display: flex;
-    justify-content: center;
-    margin-left: 40px;
-}
 
-#apresentacao2{
-    display: flex;
-    justify-content: center;
-    max-width: fit-content;
-    text-align: center;
-    width: 1150px;
-    margin-left: 180px;
-}
-
-#resumo{
-    color: aliceblue;
-    background-color: #160727;
-    box-shadow: 0 0 0 40px #160727;
-    margin-bottom: 0px;
-}
-
-#secao{
-    box-shadow: 0 10px 0 10px #2a004f;
-}
 
 #rodape{
     justify-content: left;
@@ -148,5 +136,3 @@ main{
     color: #2a004f;
     font-family: 'Dela Gothic One', cursive;
 }
-
-#160727 #00eb84 #2a004f 

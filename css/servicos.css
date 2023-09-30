@@ -21,6 +21,33 @@ body{
     margin: 0px;
 }
 
+.servico-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os serviços quebrem para a próxima linha quando não couberem mais na largura da tela */
+    
+}
+
+p{
+    color:#2a004f;
+}
+
+.servico {
+    flex-basis: calc(50% - 20px); /* Cada serviço ocupa 33,33% da largura com um espaçamento de 20px entre eles */
+    text-align: center;
+    margin: 10px; /* Espaçamento entre os serviços na coluna */
+    box-sizing: border-box; /* Evita que as margens aumentem a largura dos serviços */
+}
+
+.servico img {
+    max-width: 100%; /* Garante que a imagem não fique maior do que seu contêiner */
+}
+
+.img5{
+    height: 400px;
+    width: 700px;
+    border-radius: 18px;
+}
+
 ul {
     display: flex;
     justify-content: center;
@@ -52,4 +79,60 @@ main{
     color: aliceblue;
     background-color: #160727;
     box-shadow: 0 0 0 40px #160727;
+}
+
+#rodape{
+    justify-content: left;
+    display: flex;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color:#ffff;
+    background-color: #160727;
+    box-shadow: 10px 10px 0 10px #2a004f;
+    padding: 20px;
+    padding-top: 19px;
+    padding-bottom: 15px;
+}
+
+#copy{
+    margin-left: 10px;
+    margin-right: 700px;
+}
+
+#instalogo{
+    width: 50px;
+    display: flex;
+    justify-items: right;
+}
+
+#logo{
+    margin-left: 190px;
+    width: 50px;
+}
+
+#ajuda{
+    letter-spacing: 1px;
+    font-family: 'Dela Gothic One', cursive;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: fixed;
+    left: 15px;
+    bottom: 15px;
+    font-size: 1.1em;
+    background-color: #00eb84;
+    border-radius: 30px;
+    width: 85px;
+    height: 50px;
+    border: 1px solid #00eb84;
+    color: #2a004f;
+    font-family: 'Dela Gothic One', cursive;
 }
