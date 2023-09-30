@@ -46,6 +46,7 @@ li{
 }
 
 #detalhes{
+    margin-right: 45px;
     text-align: center;
     margin-left: 45px;
     align-items: last baseline;
